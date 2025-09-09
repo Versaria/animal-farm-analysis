@@ -47,10 +47,10 @@ class AnimalFarmTest {
         animals.add("DOG Шарик");
         AnimalFarm farm = new AnimalFarm(animals);
 
-        farm.addFarmAnimal(Animal.CAT, "Васька"); // Исправлено: "Васька" вместо "Васькa"
+        farm.addFarmAnimal(Animal.CAT, "Васька");
 
         assertEquals(2, farm.getFarmAnimals().size());
-        assertTrue(farm.getFarmAnimals().contains("CAT Васька")); // Исправлено: "Васька" вместо "Васькa"
+        assertTrue(farm.getFarmAnimals().contains("CAT Васька"));
     }
 
     @Test

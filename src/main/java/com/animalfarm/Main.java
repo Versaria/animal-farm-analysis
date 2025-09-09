@@ -41,6 +41,6 @@ public class Main {
         farm.addFarmAnimal("Неизвестный");
 
         System.out.println("\n=== Строковое представление фермы ===");
-        System.out.println(farm); // Убрал ненужный toString()
+        System.out.println(farm);
     }
 }

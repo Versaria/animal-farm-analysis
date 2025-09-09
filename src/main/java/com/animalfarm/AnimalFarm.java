@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class AnimalFarm {
     // Список строк в формате "ВИД_ЖИВОТНОГО ИМЯ_ЖИВОТНОГО"
-    private final List<String> farmAnimals; // Добавлен final
+    private final List<String> farmAnimals;
 
     /**
      * Конструктор фермы животных.
